@@ -1,13 +1,13 @@
-# Управляющие конструкции: while
+# Управляющие конструкци: for
 
-original_number = 1445
-inverted_number = 0
-while original_number != 0:
-    inverted_number = inverted_number * 10 + (original_number%10)
-    original_number //= 10
-    print(original_number)
-else:
-    print('вот что получилось!')
+for i in 1,2,3,4,5,6,7,8,9,10:
+    print(i**2)
+# Можно еще изобразить таким образом:
+list = [1,2,3,4,5,6]
+for i in list:
+    print(i*2)
 
-print(inverted_number)
+r = range(14)
+for i in r:
+    print(i)
 
